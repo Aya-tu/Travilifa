@@ -1,0 +1,31 @@
+body{
+        overflow-x: hidden;
+}
+
+header{
+    background-image: url("./img/Background-CrhoXMm2.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+input{
+    outline: none;
+}
+nav{
+    z-index: 999;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    cursor: pointer;
+   
+
+}
+li{
+     transition: .3s;
+}
+li:hover{
+    box-shadow: 1px 1px 10px white;
+}
